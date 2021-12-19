@@ -13,7 +13,7 @@ This is collaborative project which consist of Backend as well, We follow MVC mo
 * Anmol Kumar
 * Aishwarya Jadhav
 * Surendra
-* Abhishek Sulawat
+* Abhishek Silawat
 
 
 ## Tools & Technology Used:
