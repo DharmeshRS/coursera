@@ -15,7 +15,7 @@ const register = async (req,res)=>{
         user = await User.create(req.body);
         console.log(user);
 
-        res.render("products/home")
+        res.render("/")
         //we will create token
         const token = newToken(user);
 
@@ -41,7 +41,7 @@ const login = async (req,res)=>{
             return res.status(400).json({status:"failed", message: "Please provide a correct Email and Password"})
         }
         console.log(user);
-        res.render("products/home")
+        res.render("/")
         //we will create token
         const token = newToken(user);
 

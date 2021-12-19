@@ -136,5 +136,13 @@ var login=document.getElementById("login")
 login.style.color="blue"
 
 login.onclick=()=>{
-    window.location.href="../users/login"
+    window.location.href="courses/login"
+}
+
+
+var reg=document.getElementById("jff")
+reg.style.color="blue"
+
+reg.onclick=()=>{
+    window.location.href="courses/register"
 }
