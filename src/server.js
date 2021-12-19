@@ -41,12 +41,21 @@ app.use("courses/login", login);
 
 
 
-const start=async()=>{
-    const con=await connect();
-    console.log("connection Established")
-    app.listen(port,()=>{
-    console.log(`Listening On port ${port}`)
- })
-}
+// const start=async()=>{
+//     const con=await connect();
+//     console.log("connection Established")
+//     app.listen(port,()=>{
+//     console.log(`Listening On port ${port}`)
+//  })
+// }
+app.get("/home", function (req, res) {
+  return res.render("index");
+});
 
-module.exports=start
+
+app.listen(process.env.PORT ||3000, async (req, res) => {
+await connect();
+console.log("listening to port 3000");
+});
+
+// module.exports=start
