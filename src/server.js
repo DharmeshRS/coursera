@@ -29,11 +29,11 @@ app.get("/", function (req, res) {
 // app.use("/register", register);
 
 //   app.get("/register",(req,res)=>{
-//     res.render("register")
+//     res.render("users/register")
 // })
 // app.use("/login", login);
 // app.get("/login",(req,res)=>{
-//     res.render("login")
+//     res.render("users/login")
 // })
 
 
