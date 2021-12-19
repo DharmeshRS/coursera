@@ -23,7 +23,7 @@ app.set("view engine", "ejs");
 app.use("/courses/",allcourseController)
 // app.use("/users",userController)
 app.get("/", function (req, res) {
-    return res.render("products/index");
+    return res.render("index");
   });
 
 
