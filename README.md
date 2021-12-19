@@ -61,11 +61,15 @@ All the resources which are used in the project either we fetch those from main 
 ## Some Screeshots of our Project :-
 
 ### * Home Page 
-![Homepage]()
-
+![Homepage](![Screenshot (126)](https://user-images.githubusercontent.com/55545639/146664693-8a3740b9-7411-476a-8159-8912d770a7fb.png)
+)
+### * Sliders Using npm swiper 
+![Navbar dynamic Dropdown]()
+)
 
 ### * Navbar and Drop down
 ![Navbar dynamic Dropdown]()
+)
 
 
 
@@ -78,18 +82,18 @@ All the resources which are used in the project either we fetch those from main 
 
 ### * About Us Page:-
 
-![Enterprises Page](https://user-images.githubusercontent.com/82999625/141252480-4c1afd10-733b-47d3-85ce-edd9e80cfdbd.png)
+![Enterprises Page]()
 
 
 ### * course page 
-![courses page with filters](https://user-images.githubusercontent.com/82999625/141252704-1c1d1a95-4a09-472b-bb36-ac0039d2e469.png)
+![courses page with filters](![dynamic debouncing](https://user-images.githubusercontent.com/55545639/146664759-20a3c404-affa-4c05-8ae4-b788eaf22828.png)
 
 
 ### * course detail page
-![course details PF](https://user-images.githubusercontent.com/82999625/141252583-6ec31254-4298-459e-a2da-aa58e9116475.png)
+![course details PF]()
 
 ### * loginpage
-![login page](https://user-images.githubusercontent.com/82999625/141252583-6ec31254-4298-459e-a2da-aa58e9116475.png)
+![login page]()
 
 <!-- ### * Add to cart page
 
