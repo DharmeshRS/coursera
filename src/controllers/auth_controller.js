@@ -15,7 +15,7 @@ const register = async (req,res)=>{
         user = await User.create(req.body);
         console.log(user);
 
-        res.render("products/home")
+        res.render("users/login")
         //we will create token
         const token = newToken(user);
 
