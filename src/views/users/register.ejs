@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <title>sign Up</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+    <link rel="stylesheet" href="/static/users/register.css">
+</head>
+<body>
+    <div class="signup-form">
+        <h1>Sign Up</h1>
+        <p>Learn on your own time from top <br> universities and businesses</p>
+        <div class="pop-up"></div>
+        <form action="users/register" method="POST" id="myform">
+            <p class="title">FULL NAME</p>
+            <input type = "text" id="name" name="name" placeholder = " Name" />
+            <p class="title">EMAIL</p>
+            <input type = "email" id="email" name="email" placeholder = " Email" />
+            <p class="title">PASSWORD</p>
+            <input type = "password" id="password" name="password" placeholder = " Password" />
+            <p class="title">Between 8 and 72 characters</p>
+    
+            <input type="submit" id="signup-btn" value ="Join for free" />
+            <div class="line">
+                <div class="hr"><hr> </div>  <div><p class="or">or</p></div>  <div class="hr"><hr> </div>
+                </div>
+                
+                <div class="google">
+                    <div class="fab fa-google"></div>
+                    <div class="text">Continue with Google</div>
+                 </div>
+        </form>
+    </div>
+
+</body>
+</html>

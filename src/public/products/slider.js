@@ -131,3 +131,10 @@ student.style.color="blue"
 student.onclick=()=>{
     window.location.href="../courses/students"
 }
+
+var login=document.getElementById("login")
+login.style.color="blue"
+
+login.onclick=()=>{
+    window.location.href="../users/login"
+}

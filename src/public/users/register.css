@@ -1,0 +1,87 @@
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.3);
+}
+.signup-form{
+    border-radius:5px;
+    padding: 20px;
+    width:520px;
+    background:#fff;
+    padding:20px;
+    margin:10px auto 5px;
+    text-align:center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.7);
+    
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width:80%;
+    text-align:center;
+    margin:0 auto;
+    
+}
+.signup-form h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight:400;
+}
+.title{
+    margin:0%;
+    text-align: left;
+    font-weight:700;
+    word-spacing: 0px;
+    font-size:12px;
+    line-height: 18px;
+}
+input{
+    border-radius: 2px;
+    padding:15px;
+    margin: 10px 0;
+    font-size:18px;
+    border: 1px solid black;
+    
+    
+}
+#signup-btn{
+    border-radius: 2px;
+    padding:20px;
+    font-size:18px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top:35px;
+    background-color:blue;
+    color:white;
+    font-size: 17px;
+    font-weight:bolder;
+    cursor:pointer;
+}
+.line{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.hr{
+    width:210px;
+}
+i{
+    color:black;
+}
+.google{
+    padding:20px 25px;
+    border-radius: 2px;
+    margin-top:10px; 
+    font-size: 17px;  
+    font-weight:bolder; 
+    border:1px solid black;
+    display:flex;
+    
+}
+.text{
+    text-align: center;
+    margin:auto;
+}
