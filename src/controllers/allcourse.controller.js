@@ -26,7 +26,7 @@ router.get("/",async(req,res)=>{
 )
 
 router.get("/home", function (req, res) {
-    return res.render("products/index");
+    return res.render("index");
   });
 
 router.get("",async function (req, res) {
@@ -38,7 +38,7 @@ router.get("",async function (req, res) {
 router.get("/search",async function (req, res) {
     const data = await allcourseModel.find().lean().exec(); 
     console.log(data) 
-   return res.render("products/course_list_page",{
+   return res.render("course_list_page",{
        data
    })
           
@@ -47,7 +47,7 @@ router.get("/search",async function (req, res) {
  router.get("/desc",async function (req, res) {
     const data = await allcourseModel.find().lean().exec(); 
     console.log(data) 
-    res.render("products/courseDescription",{
+    res.render("courseDescription",{
     
         coursename: req.query.coursename,
         institute: req.query.institute,
@@ -62,15 +62,24 @@ router.get("/search",async function (req, res) {
           
  });
 
- router.get("/enterprises",function (req, res) {
-    return res.render("products/Enterprises");
+router.get("/enterprises",function (req, res) {
+    return res.render("Enterprises");
 })
 router.get("/students",function (req, res) {
-    return res.render("products/students");
+    return res.render("students");
 })
 
 router.get("/teams",function (req, res) {
-    return res.render("products/teams");
+    return res.render("teams");
+})
+router.get("/login",function (req, res) {
+    return res.render("login");
+})
+router.get("/register",function (req, res) {
+    return res.render("register");
+})
+router.get("/payment",function (req, res) {
+    return res.render("payment");
 })
 
 module.exports=router;

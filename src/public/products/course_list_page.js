@@ -137,7 +137,7 @@ function show_server_data(data,lang_name){
                 maindiv.append(imgdiv,descdiv)
                 maindiv.onclick=function(){
                     alert("go to desc page")
-                    document.location.href="courseDescription.html";
+                    document.location.href="/courses/desc";
                 }
                 parent.append(maindiv,hr)
             }
@@ -193,7 +193,7 @@ function  show_server_data_level(data,level_name){
             maindiv.append(imgdiv,descdiv)
             maindiv.onclick=function(){
                 alert("go to desc page")
-                document.location.href="courseDescription.html";
+                document.location.href="/courses/desc";
             }
             parent.append(maindiv,hr)
         }
@@ -259,7 +259,7 @@ function show_server_data_duration(data,duration_name){
             maindiv.append(imgdiv,descdiv)
             maindiv.onclick=function(){
                 alert("go to desc page")
-                document.location.href="courseDescription.html";
+                document.location.href="/courses/desc";
             }
             parent.append(maindiv,hr)
         }
@@ -329,7 +329,7 @@ function show_server_data_subject(data,subject_name){
             maindiv.append(imgdiv,descdiv)
             maindiv.onclick=function(){
                 alert("go to desc page")
-                document.location.href="courseDescription.html";
+                document.location.href="/courses/desc";
             }
             parent.append(maindiv,hr)
         }
@@ -388,7 +388,7 @@ function show_server_data_skill(data,skill_name){
         maindiv.append(imgdiv,descdiv)
         maindiv.onclick=function(){
             alert("go to desc page")
-            document.location.href="courseDescription.html";
+            document.location.href="/courses/desc";
         }
         parent.append(maindiv,hr)
     }
@@ -450,7 +450,7 @@ function show_server_data_learning(data,learning_name){
         maindiv.append(imgdiv,descdiv)
         maindiv.onclick=function(){
             alert("go to desc page")
-            document.location.href="courseDescription.html";
+            document.location.href="/courses/desc";
         }
         parent.append(maindiv,hr)
     }

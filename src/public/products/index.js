@@ -79,7 +79,7 @@ let elements=data.elements
         var coursera=JSON.parse(localStorage.getItem("coursera"));
         coursera[0]=el;
         localStorage.setItem("coursera",JSON.stringify(coursera))
-        window.location.href="courseDescription.html"
+        window.location.href="courses/desc"
     }
     debouncediv.setAttribute("id","debouncediv")
     rV.append(debouncediv)
@@ -170,7 +170,7 @@ let elements=data.elements
                 var coursera=JSON.parse(localStorage.getItem("coursera"));
                 coursera[0]=el;
                 localStorage.setItem("coursera",JSON.stringify(coursera))
-                window.location.href="courseDescription.html"
+                window.location.href="courses/desc"
             }
         }
         else if(count>5&&count<=8){
@@ -205,7 +205,7 @@ let elements=data.elements
                 var coursera=JSON.parse(localStorage.getItem("coursera"));
                 coursera[0]=el;
                 localStorage.setItem("coursera",JSON.stringify(coursera));
-                window.location.href="courseDescription.html"
+                window.location.href="courses/desc"
             }
             cert.append(debouncediv)
 

@@ -141,7 +141,7 @@ login.onclick=()=>{
 
 
 var reg=document.getElementById("jff")
-reg.style.color="blue"
+reg.style.color="black"
 
 reg.onclick=()=>{
     window.location.href="courses/register"

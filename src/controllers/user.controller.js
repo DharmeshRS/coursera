@@ -5,18 +5,21 @@ const router = express.Router();
 const User = require("../models/user.model");
 
 router.get("/login", function (req, res) {
- return res.render("users/login") 
+ return res.render("login") 
   
 });
 
+router.post("/login",function (req,res){
+  return res.render("/")
+})
  
-router.get("/signup", function (req,res){
-  return res.render("users/register");
+router.get("/register", function (req,res){
+  return res.render("register");
 });
 
-router.get("/home", function (req, res) {
-  return res.render("products/homePage");
-});
+// router.get("/home", function (req, res) {
+//   return res.render("products/homePage");
+// });
 
 // router.get("", async function (req, res) {
 //   const users = await User.find().lean().exec();
@@ -29,7 +32,7 @@ router.get("/home", function (req, res) {
 //   });
 // });
 
- {/* <a href="/users/create?first_name=Dheeraj&last_name=Bisht&email=dheeraj@bisht.com">Dheeraj Bisht</a> */}
+ {/* <a href="/users/create?first_name=mmm&last_name=mmm&email=mmm@gmail.com">Dharmesh</a> */}
 // router.get("/create", function (req, res) {
 //   res.render("users/addUser", {
 //     first_name: req.query.first_name,
