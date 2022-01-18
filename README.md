@@ -54,6 +54,8 @@ Our project is a clone of a www.coursera.in, where we can purchase courses which
 * Google images
 
 All the resources which are used in the project either we fetch those from main website or we take from google. All the resources are belongs to their respective owners. We don't have anykind of ownership over any resources. All images are taken from coursera.in, google images are only for educational and learning puropose. All icons and fonts taken from open sources from google search. We have no copyrights over images, icons or fonts.
+Deployed Link:- https://happy-albattani-fcfa76.netlify.app/
+
 
 
 ## Some Screeshots of our Project :-
