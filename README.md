@@ -1,6 +1,6 @@
 # Unit 3 Project 
 
-Clone of "www.coursera.in". 
+Clone of "www.coursera.org". 
 
 
 This is collaborative project which consist of Backend as well, We follow MVC model there to show our web pages, and for creating database We use mongoDB, for connecting mongoDb to the express we use Mongoose. And for backend we used Express in this project.  After this project we got a clear picture around backend of the website like how data is stored in API how to receive data in the view part and render on the webpage.Deployed Link:- https://happy-albattani-fcfa76.netlify.app/
